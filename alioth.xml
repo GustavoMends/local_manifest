@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <remote  name="gm"
+           fetch="https://github.com/GustavoMends"
+           revision="fifteen" />
+
+  <remote  name="pixelos-gm"
+           fetch="https://github.com/pos-gm"
+           revision="fiftee" />
+
+  <!-- Device repos -->
+  <project path="device/xiaomi/alioth" name="device_xiaomi_alioth" remote="gm" />
+  <project path="kernel/xiaomi/alioth" name="kernel_xiaomi_alioth" remote="gm" />
+  <project path="vendor/xiaomi/alioth" name="vendor_xiaomi_alioth" remote="gm" />
+
+  <!-- Hardware -->
+  <project path="hardware/xiaomi" name="hardware_xiaomi" remote="pixelos-gm" />
+
+  <!-- Prebuilts -->
+  <project path="prebuilts/clang/host/linux-x86/clang-r536225" name="kei-space/clang/r536225" clone-depth="1" revision="master" remote="gitlab" />
+
+</manifest>
