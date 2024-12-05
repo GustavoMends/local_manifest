@@ -17,7 +17,4 @@
   <!-- Hardware -->
   <project path="hardware/xiaomi" name="hardware_xiaomi" remote="pixelos-gm" />
 
-  <!-- Prebuilts -->
-  <project path="prebuilts/clang/host/linux-x86/clang-r536225" name="kei-space/clang/r536225" clone-depth="1" revision="master" remote="gitlab" />
-
 </manifest>
