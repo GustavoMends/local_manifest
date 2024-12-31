@@ -20,12 +20,12 @@
   <project path="hardware/xiaomi" name="hardware_xiaomi" remote="pixelos-gm" />
 
   <!-- Kernel -->
-  <project path="kernel/xiaomi/alioth" name="kernel_xiaomi_alioth" remote="gm" />
+  <project path="kernel/xiaomi/alioth" name="kernel_xiaomi_alioth" clone-depth="1" remote="gm" />
 
   <!-- Prebuilts -->
   <project path="prebuilts/clang/host/linux-x86/clang-r547379" name="r547379" clone-depth="1" remote="clang" />
 
   <!-- Vendor -->
-  <project path="vendor/xiaomi/alioth" name="vendor_xiaomi_alioth" remote="gm" />
+  <project path="vendor/xiaomi/alioth" name="vendor_xiaomi_alioth" clone-depth="1" remote="gm" />
 
 </manifest>
